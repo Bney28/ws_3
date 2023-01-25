@@ -10,6 +10,7 @@ body {
     display: flex;
     margin: 0 8%;
     width: 90%;
+    align-items: center;
 }
 
 #texto {
@@ -72,6 +73,12 @@ input {
 
 input:hover {
     border: 1px solid #38cc8c;
+}
+
+.error {
+    color: #ff7e7a;
+    font-size: 0.8rem;
+    text-align: end;
 }
 
 button {
